@@ -1,3 +1,12 @@
 baseURL = 'http://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
+
+theme = "hugo-theme-stack"
+
+[menu]
+[[menu.main]]
+  identifier = "post"
+  url = "/post/"
+  title = ""
+  weight = 1
