@@ -1,7 +1,7 @@
 ---
-title: "Chapter_1"
+title: "Chapter_1 (Introduction)"
 date: 2022-07-11T14:30:26+08:00
-draft: true
+draft: false
 ---
 ## Abstract
 Hugo 可以用來快速的創建 static website ，好處是我們既可以不用自己寫 HTML 的程式碼，也不用使用 WordPress 或是 Wix 這類幫忙架設網站的付費平台。另外， Hugo 的速度非常快，不像一些傳統的網站架設工具，它是用 Golang 撰寫的（支援 multi-thread）。
