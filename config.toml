@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'My New Hugo Site'
 
 # theme = 'hugo-theme-stack'
-theme = 'PaperMod'
+theme = 'fixed'
 
 [menu]
 [[menu.main]]
