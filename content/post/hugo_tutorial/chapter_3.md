@@ -13,7 +13,8 @@ git clone https://github.com/YOUR_HUGO_THEME themes/YOUR_HUGO_THEME --depth=1
 ```
 
 **Note**: 這邊可以在上述 command 的末端加上 ` --branch v1.0` 來指定想要下載的 themes 的版本
-**Note**: ```depth=1``` 可以讓我們從特定的一個 branch 只抓取最新的一個 commit (default: master branch)
+
+**Note**: `depth=1` 可以讓我們從特定的一個 branch 只抓取最新的一個 commit (default: master branch)
 
 > Updating theme :
 >
@@ -21,6 +22,7 @@ git clone https://github.com/YOUR_HUGO_THEME themes/YOUR_HUGO_THEME --depth=1
 > cd themes/YOUR_HUGO_THEME
 > git pull
 > ```
+
 
 ### Method 2
 可以使用 [submodule](https://www.atlassian.com/git/tutorials/git-submodule) 來安裝
