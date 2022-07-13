@@ -1,10 +1,10 @@
 ---
-title: "Chapter_2 (Directory Structure)"
+title: "Hugo 架站紀錄 #2 Directory Structure"
 date: 2022-07-11T23:31:37+08:00
 draft: false
 ---
 ## Bais Architecture
-```console
+```bash
 hugo new site YOUR_SITE_NAME
 ```
 透過這個指令可以先創造出基本的資料夾，資料夾內部則會包含：

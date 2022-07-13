@@ -1,5 +1,5 @@
 ---
-title: "Chapter_1 (Introduction)"
+title: "Hugo 架站紀錄 #1 Introduction"
 date: 2022-07-11T14:30:26+08:00
 draft: false
 ---
