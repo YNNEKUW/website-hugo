@@ -19,6 +19,7 @@ hugo server -D
 
 **Note**: `-D` 可以讓我們用開發者模式預覽網站，每篇被新增的 .md 最上方一開始都會有 `draft=true` ，若沒有加上 `-D` 則無法看到這些草稿
 
+---
 ## List Page vs Single Page
 ```
 Hugo Website
