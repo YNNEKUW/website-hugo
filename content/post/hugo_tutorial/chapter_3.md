@@ -41,7 +41,7 @@ git submodule update --init --recursive # 可以 recursively 的更新 submodule
 > ```
 
 ### Method 3
-選取好 Hugo Theme 後，進到作者的 GitHub repo ，點選右上角的下載，將下載完成的 .zip 放到 `/themes` 資料夾中解壓縮即可
+選取好 Hugo Theme 後，進到作者的 GitHub repo ，點選右上角的下載，將下載完成的 .zip 放到 `themes/` 資料夾中解壓縮即可
 
 ---
 ### Finally...
