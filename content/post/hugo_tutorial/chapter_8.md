@@ -6,7 +6,7 @@ categories: ["Hugo"]
 ---
 ## Default Taxonomies
 在 front matter 中可以加入一些 keywords 來幫助我們對網站上的文章做分類，最常見的 taxonomies 當屬 `tags` 以及 `categories` ，語法如下：
-```yaml
+```go
 tags: ["tag1", "tag2"]
 categories: ["cat1", "cat2"]
 ```
@@ -16,7 +16,7 @@ categories: ["cat1", "cat2"]
 
 ## Custom Taxonomies
 除了預設的 taxonomies ，使用者可以自行定義，但必須要在 `config.toml` 中加入一些程式碼，比如說我們想要自行加入 `mood` 這個 taxonomy:
-```toml
+```go
 [taxonomies]
   tag = "tags"
   catetory = "categories"

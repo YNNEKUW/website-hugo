@@ -5,11 +5,11 @@ draft: false
 categories: ["Hugo"]
 ---
 若要在網頁中插入某些外部資源，可以使用 Hugo shortcodes 來達成，格式如 
-```toml
+```go
 {{</* SHORTCODE_NAME parameter_1 parameter_2 */>}}
 ```
 e.g. 
-```
+```go
 {{</* youtube WRz2MxhAdJo */>}}
 ``` 
 可以鑲入 YouTube 影片，實際結果如下：

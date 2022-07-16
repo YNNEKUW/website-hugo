@@ -42,7 +42,7 @@ Hugo Website
 ```
 Base template 有點類似繼承的概念，我們會在 `baseof.html` 中定義一些 blocks ，在 `single.html` 以及 `list.html` 中，若我們沒有特別再定義一次這些 blocks ，它就會顯示出 `baseof.html` 中的內容。舉例來說，在 `baseof.html` 中：
 
-```html
+```go
 <html>
 <head>
     <meta charset="UTF-8">
@@ -65,7 +65,7 @@ Base template 有點類似繼承的概念，我們會在 `baseof.html` 中定義
 ```
 
 若我們沒有在 `list.html` 以及 `single.html` 中特別再寫一次 main 以及 func1 的話，則會看到兩次 **This is the default baseof** 。然而，若我們在 `list.html` 或是 `single.html` 中寫了 main 或是 func1 ，則他會覆蓋 `baseof.html` 中的內容，進而顯示在所有的 list pages 以及 single pages 上，如
-```html
+```go
 {{ define "func1"}}
     This is the single template rather than the baseof
 {{end}}
